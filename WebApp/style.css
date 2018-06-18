@@ -1,0 +1,422 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: "Arial", serif;
+    background-color: #181818;
+    margin: 0;
+    background-position: center;
+    background-size: 100%;
+}
+
+.nav{
+	background-color:#181818;
+	color: #ffffff;
+	list-style:none;
+    text-align: left;
+    padding: 20px 0 0 0;
+}
+
+.nav1{
+	background-color:#444;
+	color: #ffffff;
+	list-style:none;
+    text-align: left;
+    padding: 20px 0 0 0;
+}
+
+.updates{
+	background-color:#444;
+	color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    border: 3px solid #2f2f2f;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.updates2{
+    background-color:#444;
+	color: white; 
+    text-align: left;
+    font-size: 15px;
+    border: 3px solid #2f2f2f;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.updates3{
+    background-color:#181818;
+	color: white; 
+    text-align: left;
+    font-size: 15px;
+    border: 3px solid #2f2f2f;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.updates > a{
+    text-decoration: none;
+    color: white;
+	font-size: 12.5px;
+}
+
+.updates > a:hover{
+    color: crimson;
+}
+
+.rebirth:hover{
+	border: 3px solid crimson;
+}
+
+.barTitle{
+    height: 30px;
+    padding-left: 10px;
+    font: normal 17px/23px "Tahoma" , Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    color: #fff;
+    border: 1px solid #2f2f2f;
+    border-bottom: 0px;
+    line-height: 30px;
+}
+
+.barContent {
+    padding: 10px;
+    padding-top: 10px;
+    border: 1px solid #2f2f2f;
+    border-top: 0px;
+}
+
+.barContent > p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.nav1 > li{
+	display: inline-block;
+	padding-right: 50px;
+	font-size: 14px;
+    position: relative;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+
+.nav1 > li > a{
+	text-decoration: none;
+	color: #ffffff;
+    display: block;
+    margin-left: 10px;
+}
+
+.textDark{
+    color: #181818;
+    font-size: 12.5px;
+}
+
+.textDark:hover{
+    color: white;
+}
+
+.dcComics > a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: "fonts/Comic Book Italic.otf";
+    font-size: 13px;
+    padding-top: 12px;
+}
+
+.dcComics > h4{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: "fonts/Comic Book Italic.otf";
+    padding-top: 12px;
+}
+
+.dcComics > a:hover{
+    color: crimson;
+}
+
+.nav1 > li:hover > a{
+	background-color: #595959;
+}
+
+.logo{
+	float: left;
+	padding-left:25px;
+}
+
+.logo > a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.banner{
+	width: 100%;
+	display: block;
+}
+
+.banner > .banner-image{
+	width: 100%;
+	height: 250px;
+	display: block;
+	background-size: cover;
+}
+
+.logo > a > .logo-image{
+    width: 450px;
+    height: 100px;
+}
+
+input[type=search]{
+    background-color: #303030;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    top: 10px;
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=search]:focus {
+    width: 125%;
+}
+
+.wrapper{
+    display: inline-block;
+    position: relative;
+}
+
+.request{
+    position: relative;
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+p{
+    color: floralwhite;
+    font-size: 15px;
+}
+
+.rebirth{
+    width: 130px;
+    height: 160px;
+}
+
+
+label{
+    color: floralwhite;
+}
+
+input,
+button {
+    background-color:transparent;
+    border:0;
+    right: 0;
+    top: 18px;
+    color: floralwhite;
+}
+
+footer{
+    background-color: #444;
+    text-align: center;
+    display: inline block;
+    
+}
+
+#container{
+    width: 752px;
+    height: 952px;
+    border: 1px solid white;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides{
+    width: 750px;
+    height: 950px;
+    position: absolute;
+}
+
+#container > .btn{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    top: 400px;
+    background: black;
+    color: white;
+    font-size: 15px;
+}
+
+#container > #btn2{
+    position: relative;
+    float: right;
+}
+
+#container > #btn1{
+    position: relative;
+    float: left;
+}
+
+#container > #btn1:hover {
+    box-shadow: 10px 0px 20px 0px black;
+}
+
+#container > #btn2:hover {
+    box-shadow: 10px 0px 20px 0px black;
+}
+
+
+.rebirth1{
+    width: 180px;
+    height: 230px;
+}
+
+td{
+    border: none !important;
+}
+
+.change{
+    background-color: black!important;
+    border: 1px solid white !important;
+}
+
+.dynamo{
+    width: 277px;
+    height: 277px;
+    border-radius: 200px;
+}
+
+.box{
+    border: 2px solid #181818 !important;
+    border-radius: 4px;
+}
+
+.comment{
+    background-color: dimgrey;
+}
+
+.commentLabel{
+    color: darkslategrey;
+}
+
+h2{
+    color: white;
+}
+
+.darkText{
+    font-family: "fonts/Comic Book Italic.otf";
+    font-size: 13.5px;
+    color: #181818;
+}
+
+.back{
+    background-color: transparent;
+    border: 2px solid white !important;
+    top: 18px;
+    color: floralwhite;
+    text-align: center;
+}
+
+.bookmark{
+    background-color: transparent;
+    border: 2px solid white !important;
+    top: 18px;
+    color: floralwhite;
+    text-align: center;
+    float: right;
+}
+
+.modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.modal_content{
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#modalBtn{
+    cursor: pointer;
+    
+}
+
+.modal_main{
+    position: fixed;
+    width: 50%;
+    height: 400px;
+    background: #444;
+    border-radius: 6px;
+    top: 9%;
+    left: 24%;
+    z-index: 1;
+}
+
+.modalUpload{
+    font-size: 36px;
+    padding-left: 20px;
+}
+
+.modalLine{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 5px solid #eee;
+}
+
+.closer{
+    width: 30px;
+    position: absolute;
+    margin-left: 94%;
+    top: 5%;
+    cursor: pointer;
+}
+
+textarea{
+    resize: vertical;
+}
+
+.item{
+    font-size: 13.5px;
+}
+
+.info{
+    padding-left: 50px;
+}
+
+.uploader{
+    font-size: 13.5px;
+}
+
+.textDark > a{
+    text-decoration: none;
+    color: #181818;
+    font-size: 13px;
+}
+
+.textDark > a:hover{
+    color: crimson;
+}
+
+.forgotDark > a{
+    text-decoration: none;
+    color: #181818;
+    font-size: 13px;
+}
+
+.forgotDark > a:hover{
+    color: crimson;
+}
